@@ -15,5 +15,5 @@ conta_condominio = float(input("Digite aqui o valor do Condominio: "))
 conta_total = conta_luz + conta_gas + conta_internet + conta_aluguel + conta_condominio
 conta_dividida = conta_total / qtd_pessoas
 
-print(f"Esse é o valor total a ser pago: {conta_total}")
-print(f"Cada um deverá pagar: {conta_dividida}")
+print(f"Esse é o valor total a ser pago: {conta_total:.2f}")
+print(f"Cada um deverá pagar: {conta_dividida:.2f}")
